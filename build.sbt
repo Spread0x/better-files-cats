@@ -1,28 +1,12 @@
 import Dependencies.Libraries
 
-name := """pure-watcher"""
+name := """better-files-cats"""
 
-organization in ThisBuild := "com.github.pureai"
-
-crossScalaVersions in ThisBuild := Seq(scalaVersion.value)
-
-lazy val warts = Warts.allBut(
-  Wart.Any,
-  Wart.ArrayEquals,
-  Wart.Nothing,
-  Wart.Product,
-  Wart.Serializable,
-  Wart.Overloading,
-  Wart.NonUnitStatements,
-  Wart.ImplicitConversion,
-  Wart.PublicInference,
-  Wart.ImplicitParameter
-)
+organization in ThisBuild := "com.github.spread0x"
 
 lazy val commonSettings = Seq(
-  organizationName := "com.github.pureai",
-  wartremoverErrors in (Compile, compile) := warts,
-  wartremoverErrors in (Test, compile) := warts,
+  scalaVersion := "2.13.1",
+  organizationName := "com.github.spread0x",
   libraryDependencies ++= Seq(
     Libraries.catsEffect,
     Libraries.monix,

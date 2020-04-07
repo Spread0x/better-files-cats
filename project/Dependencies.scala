@@ -3,21 +3,21 @@ import sbt._
 object Dependencies {
 
   object Versions {
-    val catsEffect  = "1.3.1"
-    val monix       = "3.0.0-RC2"
-    val pureconfig  = "0.9.2"
-    val betterFiles = "3.6.0"
+    val catsEffect  = "2.1.2"
+    val monix       = "3.1.0"
+    val pureconfig  = "0.12.3"
+    val betterFiles = "3.8.0"
 
     // Logging
-    val scalaLogging = "3.9.0"
+    val scalaLogging = "3.9.2"
 
     // Test
-    val scalaTest  = "3.0.7"
-    val scalaCheck = "1.14.0"
+    val scalaTest  = "3.1.1"
+    val scalaCheck = "1.14.3"
 
     // Compiler
-    val kindProjector    = "0.10.2"
-    val betterMonadicFor = "0.3.0"
+    val kindProjector    = "0.10.3"
+    val betterMonadicFor = "0.3.1"
   }
 
   object Libraries {

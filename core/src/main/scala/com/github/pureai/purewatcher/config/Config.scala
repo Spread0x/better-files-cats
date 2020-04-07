@@ -5,6 +5,8 @@ import cats.implicits._
 import com.github.pureai.purewatcher.model.Action
 import pureconfig.error.CannotConvert
 import pureconfig.{ ConfigReader, loadConfigOrThrow }
+import pureconfig.generic.auto._
+import pureconfig.ConfigSource
 
 import scala.util.Try
 
@@ -26,5 +28,5 @@ object Config {
         .bimap(_ => CannotConvert(pathAsString, "better.files.File", "File does not exist"), Folder(_))
   }
 
-  def getConfig(): Config = loadConfigOrThrow[Config]
+  def getConfig(): Config = ConfigSource.default.loadOrThrow[Config]//loadConfigOrThrow[Config]
 }
