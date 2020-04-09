@@ -3,7 +3,7 @@ sudo: required
 language: scala
 
 scala:
-  - 2.12.8
+  - 2.13.1
 
 jdk:
   - openjdk8
@@ -33,7 +33,7 @@ jobs:
     - &build
       stage: build
       name: "build"
-      script: sbt ++$TRAVIS_SCALA_VERSION clean test
+      script: sbt clean test
 
 cache:
   directories:

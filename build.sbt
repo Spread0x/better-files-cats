@@ -27,11 +27,11 @@ lazy val commonSettings = Seq(
   ),
   sonatypeProjectHosting := Some(GitHubHosting("Spread0x", "better-files-cats", "iamjacke@gmail.com")),
   developers := List(
-    Developer(id="jacke", name="jacke", email="iamjacke@gmail.com", url=url("https://github.com/Jacke"))
+    Developer(id = "jacke", name = "jacke", email = "iamjacke@gmail.com", url = url("https://github.com/Jacke"))
   ),
   licenses := Seq("APL2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt")),
   sonatypeProfileName := "com.github.spread0x",
-  publishMavenStyle := true,
+  publishMavenStyle := true
 )
 
 lazy val testSettings = Seq(
@@ -49,8 +49,3 @@ lazy val `better-files-cats-core` = project
   .settings(commonSettings)
   .settings(publishTo := sonatypePublishToBundle.value)
   .settings(testSettings)
-
-
-
-
-

@@ -28,5 +28,5 @@ object Config {
         .bimap(_ => CannotConvert(pathAsString, "better.files.File", "File does not exist"), Folder(_))
   }
 
-  def getConfig(): Config = ConfigSource.default.loadOrThrow[Config]//loadConfigOrThrow[Config]
+  def getConfig(): Config = ConfigSource.default.loadOrThrow[Config] //loadConfigOrThrow[Config]
 }

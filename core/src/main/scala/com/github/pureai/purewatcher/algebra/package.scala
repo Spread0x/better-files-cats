@@ -1,7 +1,11 @@
 package com.github.spread0x.better_files_cats
 
 import better.files.File
-import com.github.spread0x.better_files_cats.interpreter.{ ActionExecutorEffect, FileSystemHandlerEffect, FileWatcherEffect }
+import com.github.spread0x.better_files_cats.interpreter.{
+  ActionExecutorEffect,
+  FileSystemHandlerEffect,
+  FileWatcherEffect
+}
 import com.github.spread0x.better_files_cats.utils.FileTypeConverter
 import monix.eval.Task
 
