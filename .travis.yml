@@ -22,13 +22,13 @@ jobs:
     - &cov
       stage: cov
       name: "cov"
-      script: sbt ++$TRAVIS_SCALA_VERSION clean coverage test coverageReport && codecov
+      script: sbt clean coverage test coverageReport && codecov
       after_success: bash <(curl -s https://codecov.io/bash)
 
     - &fmt
       stage: fmt
       name: "fmt"
-      script: sbt ++$TRAVIS_SCALA_VERSION scalafmtCheck test:scalafmtCheck scalafmtSbtCheck
+      script: sbt scalafmtCheck test:scalafmtCheck scalafmtSbtCheck
 
     - &build
       stage: build
