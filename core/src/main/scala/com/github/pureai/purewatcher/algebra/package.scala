@@ -1,8 +1,8 @@
-package com.github.pureai.purewatcher
+package com.github.spread0x.better_files_cats
 
 import better.files.File
-import com.github.pureai.purewatcher.interpreter.{ ActionExecutorEffect, FileSystemHandlerEffect, FileWatcherEffect }
-import com.github.pureai.purewatcher.utils.FileTypeConverter
+import com.github.spread0x.better_files_cats.interpreter.{ ActionExecutorEffect, FileSystemHandlerEffect, FileWatcherEffect }
+import com.github.spread0x.better_files_cats.utils.FileTypeConverter
 import monix.eval.Task
 
 package object algebra {

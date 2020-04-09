@@ -1,10 +1,10 @@
-package com.github.pureai.purewatcher.interpreter
+package com.github.spread0x.better_files_cats.interpreter
 
 import better.files.File
 import cats.MonadError
 import cats.implicits._
-import com.github.pureai.purewatcher.algebra.{ ActionExecutor, FileProcessor, FileSystemHandler, FileWatcher }
-import com.github.pureai.purewatcher.config.WatcherEntry
+import com.github.spread0x.better_files_cats.algebra.{ ActionExecutor, FileProcessor, FileSystemHandler, FileWatcher }
+import com.github.spread0x.better_files_cats.config.WatcherEntry
 import monix.eval.Task
 
 import scala.concurrent.duration._

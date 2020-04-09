@@ -10,12 +10,12 @@ Functional file monitoring based on [better-files](https://github.com/pathikrit/
 Add this to your `build.sbt`:
 
 ```scala
-libraryDependencies += "com.github.pureai" %% "pure-watcher" % "<version>"
+libraryDependencies += "com.github.spread0x" %% "better-files-cats-core" % "0.10.2"
 ```
 
 ### Community
 
 Any contribution is more than welcome. Also feel free to report bugs, request features using github issues or gitter.
 
-People are expected to follow the [Scala Code Of Conduct](https://www.scala-lang.org/conduct/) when discussing pure-watcher on the Github page, Gitter channel, or other venues.
+People are expected to follow the [Scala Code Of Conduct](https://www.scala-lang.org/conduct/) when discussing better-files-cats on the Github page, Gitter channel, or other venues.
 

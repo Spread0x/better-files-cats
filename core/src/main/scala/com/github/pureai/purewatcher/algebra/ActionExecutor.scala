@@ -1,10 +1,10 @@
-package com.github.pureai.purewatcher.algebra
+package com.github.spread0x.better_files_cats.algebra
 
 import better.files.File
 import cats.MonadError
 import cats.implicits._
-import com.github.pureai.purewatcher.config.Folder
-import com.github.pureai.purewatcher.model.Action
+import com.github.spread0x.better_files_cats.config.Folder
+import com.github.spread0x.better_files_cats.model.Action
 
 trait ActionExecutor[F[_], Err] {
 

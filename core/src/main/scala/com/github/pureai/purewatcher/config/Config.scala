@@ -1,8 +1,8 @@
-package com.github.pureai.purewatcher.config
+package com.github.spread0x.better_files_cats.config
 
 import better.files.File
 import cats.implicits._
-import com.github.pureai.purewatcher.model.Action
+import com.github.spread0x.better_files_cats.model.Action
 import pureconfig.error.CannotConvert
 import pureconfig.{ ConfigReader, loadConfigOrThrow }
 import pureconfig.generic.auto._

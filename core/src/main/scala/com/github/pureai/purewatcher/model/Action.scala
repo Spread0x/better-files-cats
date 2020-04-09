@@ -1,3 +1,3 @@
-package com.github.pureai.purewatcher.model
+package com.github.spread0x.better_files_cats.model
 
 class Action

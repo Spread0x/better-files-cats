@@ -1,8 +1,8 @@
-package com.github.pureai.purewatcher.algebra
+package com.github.spread0x.better_files_cats.algebra
 
 import better.files.File
-import com.github.pureai.purewatcher.model.Action
-import com.github.pureai.purewatcher.utils.FileTypeConverter
+import com.github.spread0x.better_files_cats.model.Action
+import com.github.spread0x.better_files_cats.utils.FileTypeConverter
 
 final class FileProcessor[F[_]] private (val run: (Action, File) => F[Unit])
 

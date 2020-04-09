@@ -1,7 +1,7 @@
-package com.github.pureai.purewatcher.algebra
+package com.github.spread0x.better_files_cats.algebra
 
 import better.files.File
-import com.github.pureai.purewatcher.config.Folder
+import com.github.spread0x.better_files_cats.config.Folder
 
 trait FileSystemHandler[F[_]] {
 

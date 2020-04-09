@@ -1,7 +1,7 @@
-package com.github.pureai.purewatcher.algebra
+package com.github.spread0x.better_files_cats.algebra
 
 import cats.MonadError
-import com.github.pureai.purewatcher.config.WatcherEntry
+import com.github.spread0x.better_files_cats.config.WatcherEntry
 
 trait FileWatcher[F[_]] {
 

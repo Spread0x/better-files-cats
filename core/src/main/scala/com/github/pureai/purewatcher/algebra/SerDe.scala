@@ -1,4 +1,4 @@
-package com.github.pureai.purewatcher.algebra
+package com.github.spread0x.better_files_cats.algebra
 
 trait SerDe[I, O, F[_]] {
 

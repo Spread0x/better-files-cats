@@ -1,4 +1,4 @@
-package com.github.pureai.purewatcher
+package com.github.spread0x.better_files_cats
 
 import org.scalatest.{ FlatSpec, Matchers }
 

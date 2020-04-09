@@ -1,8 +1,8 @@
-package com.github.pureai.purewatcher.interpreter
+package com.github.spread0x.better_files_cats.interpreter
 
 import better.files.File
-import com.github.pureai.purewatcher.algebra.{ FileSystemHandler, SerDe }
-import com.github.pureai.purewatcher.config.Folder
+import com.github.spread0x.better_files_cats.algebra.{ FileSystemHandler, SerDe }
+import com.github.spread0x.better_files_cats.config.Folder
 import monix.eval.Task
 
 trait FileSystemHandlerEffect extends FileSystemHandler[Task] {

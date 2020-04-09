@@ -1,9 +1,9 @@
-package com.github.pureai.purewatcher.interpreter
+package com.github.spread0x.better_files_cats.interpreter
 
 import better.files.File
 import cats.implicits._
-import com.github.pureai.purewatcher.algebra.{ ActionExecutor, FileSystemHandler }
-import com.github.pureai.purewatcher.config.Folder
+import com.github.spread0x.better_files_cats.algebra.{ ActionExecutor, FileSystemHandler }
+import com.github.spread0x.better_files_cats.config.Folder
 import com.typesafe.scalalogging.LazyLogging
 import monix.eval.Task
 

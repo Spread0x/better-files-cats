@@ -1,4 +1,4 @@
-package com.github.pureai.purewatcher.utils
+package com.github.spread0x.better_files_cats.utils
 
 trait FileTypeConverter[File] {
   def fromBetter(file: better.files.File): File
